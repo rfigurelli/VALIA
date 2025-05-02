@@ -1,4 +1,4 @@
-# What if we could quantify the true value of an intelligent agent? VALIA: Value Assessment Layer for Intelligent Agents
+# VALIA: Value Assessment Layer for Intelligent Agents
 
 **White Paper v1.0**
 **Author:** Rogério Figurelli
@@ -59,18 +59,18 @@ Each criterion is normalized across the agent cohort, and the final VALIA score 
 
 VALIA Score = w₁·E + w₂·U + w₃·P + w₄·(1 − C) + w₅·A + w₆·(1 − T) + w₇·X
 
-**Onde:**
+**Where:**
 
-* E = Valor Econômico Normalizado
-* U = Uso Ativo Normalizado
-* P = Precisão Normalizada
-* C = Custo Operacional Normalizado
-* A = Persistência de Autonomia Normalizada
-* T = Tempo de Execução Normalizado
-* X = Métrica Configurável (ex: robustez, interpretabilidade, feedback)
-* w₁ a w₇ = Pesos atribuídos a cada métrica, com ∑wᵢ = 1
+* E = Normalized Economic Output
+* U = Normalized Active Usage
+* P = Normalized Precision
+* C = Normalized Operational Cost
+* A = Normalized Autonomy Persistence
+* T = Normalized Execution Time
+* X = Configurable Metric (e.g., robustness, interpretability, feedback)
+* w₁ to w₇ = Weights assigned to each metric, where ∑wᵢ = 1
 
-Essa fórmula torna o VALIA extensível e adaptável a diferentes contextos sem perder comparabilidade entre agentes. This design ensures that no single metric dominates unless explicitly weighted to do so.
+This formula makes VALIA extensible and adaptable to different contexts without losing comparability across agents. This design ensures that no single metric dominates unless explicitly weighted to do so.
 
 ---
 
