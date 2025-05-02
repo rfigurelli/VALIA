@@ -1,4 +1,4 @@
-# What if we could quantify the true value of an intelligent agent? VALIA: Value Assessment Layer for Intelligent Agents
+VALIA: Value Assessment Layer for Intelligent Agents
 
 **White Paper v1.0**
 **Author:** Rogério Figurelli
