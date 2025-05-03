@@ -1,4 +1,4 @@
-VALIA: Value Assessment Layer for Intelligent Agents
+## VALIA: Value Assessment Layer for Intelligent Agents
 
 **White Paper v1.0**
 **Author:** Rogério Figurelli
